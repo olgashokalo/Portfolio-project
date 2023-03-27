@@ -1,3 +1,8 @@
+:root {
+    --primary-font-family:'Roboto', sans-serif;
+    --secondary-font-family: 'Montserrat', sans-serif;
+}
+
 body{
     background-image:url(/src/o.jpg);
     background-size: cover;
@@ -6,38 +11,36 @@ body{
    
 }
 h1{
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font-family);
     font-weight: 700;
     font-size: 72px;
     line-height: 84px;
-}
+} 
+
 h2 {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font-family);
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
 }
 
 .hero p {
-    font-family: 'Roboto', sans-serif;
+    font-family: var(--primary-font-family);
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
 }
 .hero {
-    
     text-align: center;
     padding: 160px 20px;
-    color: black;
-    
-   
+    color: black; 
 }
 .btn-branding{
     padding: 18px 30px;
     border: 1px solid black;
     margin-top:30px;
     border-radius: 50px;
-    font-family: 'Montserrat', sans-serif;
+    font-family: var(--secondary-font-family);
     font-size: 14px;
     text-transform: uppercase;
     width: 200px;
