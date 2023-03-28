@@ -1,3 +1,43 @@
+@media (max-width: 900px){
+    h1 {
+        font-size: 35px !important ;  
+        line-height: 40px !important;
+    }
+    h2 {
+        font-size: 18px !important;
+
+    }
+   .hero {
+     padding: 10px !important;
+   }
+   .hero p {
+     font-size: 15px !important;
+   }
+  
+   .weatherApp_Description{
+    text-align: left;
+    font-size: 15px !important;
+    margin-left: 30px !important;
+ }
+  
+   
+   .weatherApp_Description p{ 
+     color: black;
+     font-size: 20px !important;
+   
+   
+   }
+   .myProjects {
+    font-size: 25px !important;
+   }
+   .btn-branding {
+    width: 150px !important;
+    padding: 5px 10px !important;
+    margin-top: 10px !important;
+    
+   }
+  
+}
 :root {
     --primary-font-family:'Roboto', sans-serif;
     --secondary-font-family: 'Montserrat', sans-serif;
@@ -8,37 +48,38 @@ body{
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
-   
+    font-family: var(--primary-font-family);
+    margin-bottom: 100px;
 }
 h1{
-    font-family: var(--primary-font-family);
+    
     font-weight: 700;
     font-size: 72px;
     line-height: 84px;
 } 
 
 h2 {
-    font-family: var(--primary-font-family);
+  
     font-weight: 400;
     font-size: 24px;
     line-height: 30px;
 }
 
 .hero p {
-    font-family: var(--primary-font-family);
+   
     font-weight: 700;
     font-size: 24px;
     line-height: 28px;
 }
 .hero {
     text-align: center;
-    padding: 160px 20px;
+    padding: 160px 20px 30px;
     color: black; 
 }
 .btn-branding{
     padding: 18px 30px;
     border: 1px solid black;
-    margin-top:30px;
+    margin:20px;
     border-radius: 50px;
     font-family: var(--secondary-font-family);
     font-size: 14px;
@@ -46,3 +87,30 @@ h2 {
     width: 200px;
    
 }
+.btn-weather {
+    border: 1px solid #E7ECEE;
+    opacity: 90%;
+    border-radius: 3px;
+    background-color:#6D7D88;
+    color: #E7ECEE;
+    box-shadow: 10px 5px 5px rgba (0, 0, 0, 0.3);
+   
+  
+
+}
+.myProjects{
+    font-size: 40px;
+    opacity: 80%;
+   
+}
+ .weatherApp_Description{ 
+    font-size: 20px;
+    margin-left: 60px;
+ }
+.weatherApp_Description p{
+    
+    font-size: 30px;
+    font-weight: 700;
+    opacity: 80%;
+}
+
