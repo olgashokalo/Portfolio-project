@@ -1,42 +1,12 @@
-@media (max-width: 900px){
-    h1 {
-        font-size: 35px !important ;  
-        line-height: 40px !important;
-    }
-    h2 {
-        font-size: 18px !important;
-    }
-   .hero {
-     padding: 30px 10px 10px !important;
-   }
-   .hero p {
-     font-size: 15px !important;
-   }
-   .weatherApp_Description{
-    text-align: left;
-    font-size: 15px !important;
-    margin-left: 30px !important;
- }
-   .weatherApp_Description p{ 
-     color: black;
-     font-size: 20px !important;
-     
-   }
-   .myProjects {
-    font-size: 25px !important;
-   }
-   .btn-branding {
-    width: 150px !important;
-    padding: 5px 10px !important;
-    margin-top: 10px !important; 
-   } 
-}
+
 :root {
     --primary-font-family:'Roboto', sans-serif;
     --secondary-font-family: 'Montserrat', sans-serif;
 }
-
-body{
+body {
+    background-color:#F9FAFC;
+}
+.homepage{
     background-image:url(/src/o.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -117,4 +87,42 @@ img {
     font-weight: 700;
     opacity: 80%;
 }
+.photo {
+    
+    padding: 160px 0 160px 20px;
+    /* border-radius: 100px;  */
+}
 
+@media (max-width: 900px){
+    h1 {
+        font-size: 35px;  
+        line-height: 40px;
+    }
+    h2 {
+        font-size: 18px;
+    }
+   .hero {
+     padding: 30px 10px 10px;
+   }
+   .hero p {
+     font-size: 15px;
+   }
+   .weatherApp_Description{
+    text-align: left;
+    font-size: 15px;
+    margin-left: 30px;
+ }
+   .weatherApp_Description p{ 
+     color: black;
+     font-size: 20px;
+     
+   }
+   .myProjects {
+    font-size: 25px;
+   }
+   .btn-branding {
+    width: 150px ;
+    padding: 5px 10px ;
+    margin-top: 10px ; 
+   } 
+}
