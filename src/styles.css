@@ -3,10 +3,8 @@
     --primary-font-family:'Roboto', sans-serif;
     --secondary-font-family: 'Montserrat', sans-serif;
 }
-body {
-    background-color:#F9FAFC;
-}
-.homepage{
+ 
+body{
     background-image:url(/src/o.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -32,7 +30,28 @@ img {
      
      opacity:85%;
 }
+.about-description {
+    padding: 160px ;
+   
+}
 
+.about-description h5{
+    font-size: 18px;
+    
+    font-family: var(--primary-font-family);
+}
+.about-description h3{
+    font-size: 40px;
+
+}
+.about-description p{
+    font-size: 18px;
+    line-height: 1.5;
+ 
+}
+.about-text {
+    padding-left: 30px;
+}
 .hero p {
    
     font-weight: 700;
@@ -87,10 +106,9 @@ img {
     font-weight: 700;
     opacity: 80%;
 }
-.photo {
-    
-    padding: 160px 0 160px 20px;
-    /* border-radius: 100px;  */
+
+.contact-links i{
+    padding: 15px;
 }
 
 @media (max-width: 900px){
@@ -125,4 +143,22 @@ img {
     padding: 5px 10px ;
     margin-top: 10px ; 
    } 
+
+   .about-description {
+    padding: 70px 40px 10px;
+   }
+   .about-text {
+    text-align: center;
+   }
+  
+   .about-description h3{
+    font-size: 30px;
+    margin-top: 20px;
+    
+    
+
+}
+   .myProjectsLink {
+    margin-top: 30px;
+   }
 }
