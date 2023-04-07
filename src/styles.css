@@ -1,164 +1,167 @@
-
 :root {
-    --primary-font-family:'Roboto', sans-serif;
-    --secondary-font-family: 'Montserrat', sans-serif;
+  --primary-font-family: "Roboto", sans-serif;
+  --secondary-font-family: "Montserrat", sans-serif;
 }
- 
-body{
-    background-image:url(/src/o.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center center;
-    font-family: var(--primary-font-family);
-    margin-bottom: 100px;
+
+body {
+  background-image: url(/src/o.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  font-family: var(--primary-font-family);
+  margin-bottom: 100px;
 }
-h1{
-    
-    font-weight: 700;
-    font-size: 72px;
-    line-height: 84px;
-} 
+h1 {
+  font-weight: 700;
+  font-size: 72px;
+  line-height: 84px;
+}
 
 h2 {
-  
-    font-weight: 400;
-    font-size: 24px;
-    line-height: 30px;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 30px;
+}
+h3 {
+  font-size: 40px;
 }
 
 img {
-     
-     opacity:85%;
+  opacity: 85%;
 }
-.about-description {
-    padding: 160px ;
-   
+.photo {
+  box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
 }
 
-.about-description h5{
-    font-size: 18px;
-    
-    font-family: var(--primary-font-family);
+.content-description {
+  padding: 160px;
 }
-.about-description h3{
-    font-size: 40px;
 
+.content-description h5 {
+  font-size: 18px;
+
+  font-family: var(--primary-font-family);
 }
-.about-description p{
-    font-size: 18px;
-    line-height: 1.5;
- 
+
+.content-description p {
+  font-size: 18px;
+  line-height: 1.5;
 }
-.about-text {
-    padding-left: 30px;
+.content-text {
+  padding-left: 30px;
 }
 .hero p {
-   
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 28px;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
 }
 .hero {
-    text-align: center;
-    padding: 160px 20px 30px;
-    color: black; 
+  text-align: center;
+  padding: 160px 20px 30px;
+  color: black;
 }
-.btn-branding{
-    padding: 18px 30px;
-    border: 1px solid black;
-    margin:20px;
-    border-radius: 50px;
-    font-family: var(--secondary-font-family);
-    font-size: 14px;
-    text-transform: uppercase;
-    width: 200px;
+.btn-branding {
+  padding: 18px 30px;
+  border: 1px solid black;
+  margin: 40px;
+  border-radius: 50px;
+  font-family: var(--secondary-font-family);
+  font-size: 14px;
+  text-transform: uppercase;
+  width: 200px;
 }
-.btn-branding:hover{
+.btn-branding:hover {
   border: 1px solid black;
   text-decoration: underline;
 }
 .btn-weather {
-    border: 1px solid #6D7D88 ;
-    opacity: 90%;
-    border-radius: 3px;
-    background-color:#6D7D88;
-    color: #E7ECEE;
-     box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
-} 
-.btn-weather:hover{
-    border:1px solid #6D7D88;
-    color: #6D7D88;
+  border: 1px solid #6d7d88;
+  opacity: 90%;
+  border-radius: 3px;
+  background-color: #6d7d88;
+  color: #e7ecee;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+}
+.btn-weather:hover {
+  border: 1px solid #6d7d88;
+  color: #6d7d88;
 }
 
-
-.myProjects{
-    font-size: 40px;
-    opacity: 90%;
-   
+.myProjects {
+  font-size: 40px;
+  opacity: 90%;
 }
- .weatherApp_Description{ 
-    font-size: 20px;
-    margin-left: 60px;
- }
-.weatherApp_Description p{
-    
-    font-size: 30px;
-    font-weight: 700;
-    opacity: 80%;
+.weatherApp_Description {
+  font-size: 20px;
+  margin-left: 60px;
+}
+.weatherApp_Description p {
+  font-size: 30px;
+  font-weight: 700;
+  opacity: 80%;
 }
 
-.contact-links i{
-    padding: 15px;
+.contact-links i {
+  padding: 15px;
 }
 
-@media (max-width: 900px){
-    h1 {
-        font-size: 35px;  
-        line-height: 40px;
-    }
-    h2 {
-        font-size: 18px;
-    }
-   .hero {
-     padding: 30px 10px 10px;
-   }
-   .hero p {
-     font-size: 15px;
-   }
-   .weatherApp_Description{
+@media (max-width: 900px) {
+  h1 {
+    font-size: 35px;
+    line-height: 40px;
+  }
+  h2 {
+    font-size: 18px;
+  }
+  .hero {
+    padding: 30px 10px 10px;
+  }
+  .hero p {
+    font-size: 15px;
+  }
+  .weatherApp_Description {
     text-align: left;
     font-size: 15px;
     margin-left: 30px;
- }
-   .weatherApp_Description p{ 
-     color: black;
-     font-size: 20px;
-     
-   }
-   .myProjects {
+  }
+  .weatherApp_Description p,
+  h5 {
+    color: black;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  .myProjects {
     font-size: 25px;
-   }
-   .btn-branding {
-    width: 150px ;
-    padding: 5px 10px ;
-    margin-top: 10px ; 
-   } 
+  }
+  .btn-branding {
+    width: 150px;
+    padding: 5px 10px;
+    margin-top: 10px;
+  }
 
-   .about-description {
+  .content-description {
     padding: 70px 40px 10px;
-   }
-   .about-text {
+  }
+  .content-text {
     text-align: center;
-   }
-  
-   .about-description h3{
+  }
+
+  .content-description h3 {
     font-size: 30px;
     margin-top: 20px;
-    
-    
-
-}
-   .myProjectsLink {
+  }
+  .myProjectsLink {
     margin-top: 30px;
-   }
+  }
+
+  .content-text h4 {
+    font-size: 20px;
+
+    text-align: left;
+    opacity: 90%;
+  }
+  .myWork {
+    padding: 100px 0 0;
+    font-size: 30px;
+  }
 }
