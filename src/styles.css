@@ -35,11 +35,9 @@ nav a {
 nav a:hover,
 li.active {
   transition: all 100ms ease-in-out;
-  font-weight: bold;
+  font-weight: 500;
 }
-/* nav li.active {
-  
-} */
+
 h1 {
   font-weight: 700;
   font-size: 60px;
@@ -63,25 +61,31 @@ img {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
 }
 
-.content-description {
-  padding: 100px 0px 0px;
+.social-links {
+  margin: 150px 0 60px;
 }
 
-.content-description h5 {
+.social-links h5 {
   font-size: 18px;
-
-  font-family: var(--primary-font-family);
+  /* font-family: var(--primary-font-family); */
 }
 
-.content-description p {
+.social-links p {
   font-size: 18px;
   line-height: 1.5;
 }
-.content-description a {
+
+.social-links i {
+  font-size: 18px;
+  color: black;
+  opacity: 90%;
+}
+
+.social-links a {
   font-family: var(--secondary-font-family);
   font-size: 14px;
   text-transform: uppercase;
-
+  margin: 0 20px;
   opacity: 70%;
 }
 .content-text {
