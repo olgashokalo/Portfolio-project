@@ -24,7 +24,7 @@
 </head>
 
 <body>
-    <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
+    <!-- <nav class="navbar fixed-top navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
             <a class="navbar-brand" href="#"> OLGA SHOKALO </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
@@ -41,8 +41,18 @@
                 </div>
             </div>
         </div>
-    </nav>
+    </nav> -->
+    <div class="container">
+        <nav>
+            <ul>
+                <li class="active"><a href="/">Homepage </a></li>
+                <li> <a href="/about.html">About me </a></li>
+                <li> <a href="/about.html">Work</a> </li>
+                <li> <a href="/about.html">Contacts</a> </li>
+            </ul>
 
+        </nav>
+    </div>
     <div class="hero">
         <p>
             OLGA SHOKALO
@@ -57,26 +67,27 @@
             <a href="#" class="btn btn-branding m-5"> Contact me </a>
         </div>
     </div>
-    <p class="text-center fw-bold myProjects">
-        PROJECTS
-
-    </p>
-
+    <div class="container">
+        <p class="text-center fw-bold myProjects mb-5">
+            PROJECTS:
+        </p>
+    </div>
     <div class="container">
         <div class="row">
             <div class="col">
                 <div class="weatherApp_Description">
                     <p> Weather App </p>
-                    <h5 class="text-muted mb-5"> Weather Application, that dispays world wide weather.</h5>
+                    <h5 class="text-muted mb-5 d-none d-sm-block"> Weather Application, that dispays real-time world
+                        wide weather.</h5>
 
 
-                    <div>
-                        <a href="https://shimmering-croquembouche-a32138.netlify.app/"
-                            class="btn btn-weather mt-2 fw-bold"> Launch Weather App</a>
-                    </div>
+                    <!-- <div> -->
+                    <a href="https://shimmering-croquembouche-a32138.netlify.app/" class="btn btn-weather mt-2 fw-bold">
+                        Launch Weather App</a>
+                    <!-- </div> -->
                 </div>
             </div>
-            <div class="col d-none d-md-block">
+            <div class="col ">
                 <img alt="Application Photo" src="/src/weather-app.png" class="img-fluid rounded" width="500">
             </div>
         </div>

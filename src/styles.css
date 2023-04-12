@@ -11,6 +11,35 @@ body {
   font-family: var(--primary-font-family);
   margin-bottom: 100px;
 }
+
+nav {
+  padding-top: 20px;
+}
+
+nav ul {
+  padding: 0;
+  text-align: end;
+  /* margin-top: 20px; */
+}
+nav li {
+  display: inline;
+  text-decoration: none;
+  margin-left: 30px;
+  font-size: 16px;
+  line-height: 40px;
+}
+nav a {
+  text-decoration: none;
+  color: black;
+}
+nav a:hover,
+li.active {
+  transition: all 100ms ease-in-out;
+  font-weight: bold;
+}
+/* nav li.active {
+  
+} */
 h1 {
   font-weight: 700;
   font-size: 60px;
@@ -29,6 +58,7 @@ h3 {
 img {
   opacity: 85%;
 }
+
 .photo {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
 }
@@ -113,6 +143,12 @@ img {
 }
 
 @media (max-width: 900px) {
+  nav ul {
+    text-align: center;
+  }
+  nav li {
+    font-size: 14px;
+  }
   h1 {
     font-size: 35px;
     line-height: 40px;
@@ -131,12 +167,12 @@ img {
     font-size: 15px;
     margin-left: 30px;
   }
-  .weatherApp_Description p,
-  h5 {
-    color: black;
+  .weatherApp_Description p {
     font-size: 20px;
-    margin-top: 20px;
+
+    margin: 10px 0;
   }
+
   .myProjects {
     font-size: 25px;
   }
@@ -145,7 +181,9 @@ img {
     padding: 5px 10px;
     margin-top: 10px;
   }
-
+  .btn-weather {
+    font-size: 10px;
+  }
   .content-description {
     padding: 70px 40px 10px;
   }
