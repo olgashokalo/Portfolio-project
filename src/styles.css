@@ -19,7 +19,6 @@ nav {
 nav ul {
   padding: 0;
   text-align: end;
-  /* margin-top: 20px; */
 }
 nav li {
   display: inline;
@@ -40,8 +39,8 @@ li.active {
 
 h1 {
   font-weight: 700;
-  font-size: 60px;
-  line-height: 84px;
+  font-size: 50px;
+  line-height: 60px;
 }
 
 h2 {
@@ -52,24 +51,18 @@ h2 {
 h3 {
   font-size: 40px;
 }
-
 img {
   opacity: 85%;
 }
-
 .photo {
   box-shadow: 15px 15px 15px rgba(0, 0, 0, 0.3);
 }
-
 .social-links {
-  margin: 150px 0 60px;
+  margin: 120px 0 40px;
 }
-
 .social-links h5 {
   font-size: 18px;
-  /* font-family: var(--primary-font-family); */
 }
-
 .social-links p {
   font-size: 18px;
   line-height: 1.5;
@@ -78,18 +71,18 @@ img {
 .social-links i {
   font-size: 18px;
   color: black;
-  opacity: 90%;
+  opacity: 80%;
 }
 
 .social-links a {
   font-family: var(--secondary-font-family);
   font-size: 14px;
   text-transform: uppercase;
-  margin: 0 20px;
-  opacity: 70%;
+  padding: 20px;
+  text-decoration: none;
 }
-.content-text {
-  padding-left: 30px;
+.content-description {
+  margin: 150px 0px 0px;
 }
 .hero p {
   font-weight: 700;
@@ -142,11 +135,11 @@ img {
   opacity: 80%;
 }
 
-.contact-links i {
-  padding: 15px;
+#about-links {
+  margin: 50px 0;
 }
 
-@media (max-width: 900px) {
+@media (max-width: 568px) {
   nav ul {
     text-align: center;
   }
@@ -154,7 +147,7 @@ img {
     font-size: 14px;
   }
   h1 {
-    font-size: 35px;
+    font-size: 30px;
     line-height: 40px;
   }
   h2 {
@@ -188,28 +181,30 @@ img {
   .btn-weather {
     font-size: 10px;
   }
-  .content-description {
-    padding: 70px 40px 10px;
-  }
-  .content-text {
-    text-align: center;
-  }
 
   .content-description h3 {
     font-size: 30px;
     margin-top: 20px;
   }
+
   .myProjectsLink {
     margin-top: 30px;
   }
-
-  .content-text h4 {
-    font-size: 20px;
-
-    text-align: left;
-    opacity: 90%;
+  .content-text {
+    text-align: center;
   }
+
   .myWork {
-    padding: 100px 0 0;
+    padding: 100px 0 20px;
+  }
+  .social-links {
+    margin: 70px 0 0;
+    font-size: 10px;
+  }
+  .social-links i {
+    font-size: 15px;
+  }
+  footer p {
+    font-size: 14px;
   }
 }
