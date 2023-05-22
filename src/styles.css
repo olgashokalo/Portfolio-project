@@ -123,12 +123,12 @@ img {
 }
 
 .myProjects {
-  font-size: 40px;
+  font-size: 35px;
   opacity: 90%;
 }
 .weatherApp_Description {
-  font-size: 20px;
-  margin-left: 60px;
+  font-size: 15px;
+  margin-left: 10px;
 }
 .weatherApp_Description p {
   font-size: 30px;
